@@ -1,5 +1,3 @@
-import { ArrowRight } from "lucide-react";
-import { Button } from "./ui/button";
 import {
   Dialog,
   DialogContent,

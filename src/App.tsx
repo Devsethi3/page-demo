@@ -2,17 +2,15 @@ import { useState } from "react";
 import { Heart, Share, Star } from "lucide-react";
 import { Button } from "./components/ui/button";
 import { Card, CardContent } from "./components/ui/card";
-import { Input } from "./components/ui/input";
 import SelectGuests from "./components/SelectGuests";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { PiDoorOpen } from "react-icons/pi";
-import { SlBadge, SlLocationPin } from "react-icons/sl";
-import { GrLocation } from "react-icons/gr";
+import { SlBadge } from "react-icons/sl";
 import AboutThisPlace from "./components/AboutThisPlace";
 import MobileHero from "./components/MobileHero";
 import DesktopHero from "./components/DesktopHero";
-import { FaLocationDot, FaLocationPin } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 
 const AirbnbListingPage = () => {
   const [checkInDate, setCheckInDate] = useState<Date | null>(null);
