@@ -17,7 +17,6 @@ const CalendarPopover = () => {
   });
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
 
-  // Handle date selection
   const handleSelect = (range: DateRange | undefined) => {
     if (range) {
       setDate(range);
