@@ -46,7 +46,7 @@ const AirbnbListingPage = () => {
         <MobileHero />
       </div>
 
-      <div className="flex container flex-col h-[200vh] lg:flex-row justify-between mb-8 gap-8">
+      <div className="flex container flex-col min-h-[200vh] lg:flex-row justify-between gap-8">
         <div className="lg:w-2/3">
           <h2 className="text-xl md:text-2xl font-semibold mb-2">
             Entire home in Newport, Oregon, United States{" "}
@@ -214,6 +214,10 @@ const AirbnbListingPage = () => {
             <CalendarPopover />
           </div>
         </div>
+      </div>
+
+      <div>
+        <ReviewSection />
       </div>
     </div>
   );

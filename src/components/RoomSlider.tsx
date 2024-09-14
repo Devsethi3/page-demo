@@ -1,13 +1,16 @@
 import { useState, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { ChevronLeft, ChevronRight, Bed } from "lucide-react";
+
+type Swiper = /*unresolved*/ any;
 
 const RoomSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(1);
-  const swiperRef = useRef(null); // Create a ref for the Swiper instance
+  const swiperRef = useRef<Swiper | null>(null); // Explicitly typing the ref
 
   const images = [
     "https://a0.muscache.com/im/pictures/e775cff4-3517-4e9d-9024-809ae8dd2db7.jpg?im_w=1200",
@@ -18,72 +21,59 @@ const RoomSlider = () => {
   ];
 
   return (
-    <div className="relative">
-      {/* Title and icons container */}
+    <div className="max-w-4xl mx-auto">
       <div className="flex justify-between items-center mb-4">
         <div className="flex items-center">
-          <i className="fas fa-bed text-xl mr-2"></i> {/* Bed icon */}
-          <h2 className="text-2xl font-bold">Where you'll sleep</h2>
-          <i className="fas fa-map-marker-alt text-xl ml-2"></i> {/* Location icon */}
+          <Bed className="w-6 h-6 mr-2" />
+          <h2 className="text-xl font-semibold">Where you'll sleep</h2>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center space-x-2">
           <button
-            className="swiper-button-prev"
-            onClick={() => swiperRef.current?.swiper.slidePrev()} // Use optional chaining
+            className="w-8 h-8 flex items-center justify-center bg-white border border-gray-300 rounded-full hover:bg-gray-100 transition-colors"
+            onClick={() => swiperRef.current?.slidePrev()}
           >
-            <i className="fas fa-chevron-left"></i> {/* Custom icon */}
+            <ChevronLeft className="w-5 h-5 text-gray-600" />
           </button>
-          <div className="swiper-pagination"></div>
+          <span className="text-sm font-medium">
+            {currentSlide} / {images.length}
+          </span>
           <button
-            className="swiper-button-next"
-            onClick={() => swiperRef.current?.swiper.slideNext()} // Use optional chaining
+            className="w-8 h-8 flex items-center justify-center bg-white border border-gray-300 rounded-full hover:bg-gray-100 transition-colors"
+            onClick={() => swiperRef.current?.slideNext()}
           >
-            <i className="fas fa-chevron-right"></i> {/* Custom icon */}
+            <ChevronRight className="w-5 h-5 text-gray-600" />
           </button>
         </div>
       </div>
 
       <Swiper
-        ref={swiperRef} // Attach the ref to the Swiper component
-        spaceBetween={30}
-        slidesPerView={2} // Show 2 images at a time by default
-        loop={true}
-        draggable={true}
-        breakpoints={{
-          // 640px or smaller: Show 1 image at a time
-          640: {
-            slidesPerView: 1,
-          },
-          // 768px or larger: Show 2 images at a time
-          768: {
-            slidesPerView: 2,
-          },
+        onSwiper={(swiper) => {
+          swiperRef.current = swiper;
         }}
-        onSlideChange={(swiper) =>
-          setCurrentSlide((swiper.realIndex % images.length) + 1)
-        }
-        modules={[Pagination, Navigation]}
-        pagination={{ el: ".swiper-pagination", clickable: true }}
+        spaceBetween={16}
+        slidesPerView="auto"
+        breakpoints={{
+          640: { slidesPerView: 1.5 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 2.5 },
+        }}
+        onSlideChange={(swiper) => setCurrentSlide(swiper.realIndex + 1)}
+        modules={[Navigation, Pagination]} // Include Pagination module
+        // pagination={{ clickable: true }} // Enable pagination
+        className="mySwiper"
       >
         {images.map((image, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className="w-64 h-72">
             <img
               src={image}
               alt={`Room Slide ${index + 1}`}
-              className="w-full h-[50vh] object-cover"
+              className="w-full h-full object-cover rounded-xl"
             />
           </SwiperSlide>
         ))}
       </Swiper>
-
-      {/* Slide Progress (e.g., 2/5) */}
-      <div className="absolute z-50 bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-lg text-sm">
-        {currentSlide}/{images.length}
-      </div>
     </div>
   );
 };
 
 export default RoomSlider;
-
-// Make the slider like the image i shared, with proper custom paginations buttons and icon styles in css
