@@ -1,4 +1,4 @@
-import { Heart, Share, Star } from "lucide-react";
+import { ChevronRight, Heart, Share, Star } from "lucide-react";
 import { Button } from "./components/ui/button";
 import "react-datepicker/dist/react-datepicker.css";
 import { PiBathtub, PiDoorOpen, PiTelevisionSimple } from "react-icons/pi";
@@ -18,6 +18,7 @@ import { BiSolidWasher } from "react-icons/bi";
 import { BiSolidDryer } from "react-icons/bi";
 import HomeCalendar from "./components/HomeCalendar";
 import ReviewSection from "./components/RatingSection";
+import MapLocation from "./components/MapLocation";
 
 const AirbnbListingPage = () => {
   return (
@@ -218,6 +219,18 @@ const AirbnbListingPage = () => {
 
       <div>
         <ReviewSection />
+      </div>
+      <div className="py-8 border-t border-gray-200">
+        <MapLocation />
+      </div>
+      <div className="py-8 container pb-20 border-t border-gray-200">
+        <h2 className="text-2xl font-semibold">Neighbourhood highlights</h2>
+        <p className="my-3">
+          The neighborhood consists mainly of long term Home owners. i have the
+          only vacation rentals in the neighborhood. Please respect my
+          neighbors.
+        </p>
+        <button className="text-lg underline font-semibold flex items-center gap-1">Show more <ChevronRight /></button>
       </div>
     </div>
   );
