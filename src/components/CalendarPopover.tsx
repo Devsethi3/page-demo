@@ -1,13 +1,8 @@
 import { useState } from "react";
-import { format, addMonths } from "date-fns";
-import {
-  Calendar as CalendarIcon,
-  ChevronLeft,
-  ChevronRight,
-} from "lucide-react";
+import { addMonths } from "date-fns";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover";
 import { Button } from "./ui/button";
-import { cn } from "../lib/utils";
 import { Calendar } from "./ui/calendar";
 
 interface DateRange {

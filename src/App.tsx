@@ -1,7 +1,7 @@
 import { Heart, Share, Star } from "lucide-react";
 import { Button } from "./components/ui/button";
 import "react-datepicker/dist/react-datepicker.css";
-import { PiDoorOpen } from "react-icons/pi";
+import { PiBathtub, PiDoorOpen, PiTelevisionSimple } from "react-icons/pi";
 import { SlBadge } from "react-icons/sl";
 import AboutThisPlace from "./components/AboutThisPlace";
 import MobileHero from "./components/MobileHero";
@@ -10,6 +10,14 @@ import { FaLocationDot } from "react-icons/fa6";
 import CheckOutCard from "./components/CheckOutCard";
 import CalendarPopover from "./components/CalendarPopover";
 import RoomSlider from "./components/RoomSlider";
+import { TbToolsKitchen2 } from "react-icons/tb";
+import { MdBalcony, MdLockOpen } from "react-icons/md";
+import { IoMdWifi } from "react-icons/io";
+import { IoCarSportOutline, IoPawOutline } from "react-icons/io5";
+import { BiSolidWasher } from "react-icons/bi";
+import { BiSolidDryer } from "react-icons/bi";
+import HomeCalendar from "./components/HomeCalendar";
+import ReviewSection from "./components/RatingSection";
 
 const AirbnbListingPage = () => {
   return (
@@ -129,13 +137,77 @@ const AirbnbListingPage = () => {
           <div className="border-t border-gray-200 py-6">
             <RoomSlider />
           </div>
+
+          <div className="border-t border-gray-200 py-8">
+            <h2 className="text-2xl font-semibold mb-6">
+              What this place offers
+            </h2>
+            <div className="grid w-full grid-cols-1 lg:grid-cols-2 gap-10">
+              <div className="flex flex-col gap-5">
+                <div className="flex items-center gap-5">
+                  <MdLockOpen size={28} />
+                  <h3 className="text-lg">Beach access – Beachfront</h3>
+                </div>
+                <div className="flex items-center gap-5">
+                  <IoMdWifi size={28} />
+                  <h3 className="text-lg">Wi-Fi</h3>
+                </div>
+                <div className="flex items-center gap-5">
+                  <PiBathtub size={28} />
+                  <h3 className="text-lg">Private hot tub</h3>
+                </div>
+                <div className="flex items-center gap-5">
+                  <PiTelevisionSimple size={28} />
+                  <h3 className="text-lg">65-inch HDTV with Prime/Netflix</h3>
+                </div>
+                <div className="flex items-center gap-5">
+                  <BiSolidDryer size={28} />
+                  <h3 className="text-lg">Free dryer – In unit</h3>
+                </div>
+              </div>
+              <div className="flex flex-col gap-5">
+                <div className="flex items-center gap-5">
+                  <TbToolsKitchen2 size={28} />
+                  <h3 className="text-lg">Kitchen</h3>
+                </div>
+                <div className="flex items-center gap-5">
+                  <IoCarSportOutline size={28} />
+                  <h3 className="text-lg">Free parking on premises</h3>
+                </div>
+                <div className="flex items-center gap-5">
+                  <IoPawOutline size={28} />
+                  <h3 className="text-lg">Pets allowed</h3>
+                </div>
+                <div className="flex items-center gap-5">
+                  <BiSolidWasher size={28} />
+                  <h3 className="text-lg">Free washer – In unit </h3>
+                </div>
+                <div className="flex items-center gap-5">
+                  <MdBalcony size={28} />
+                  <h3 className="text-lg">Private patio or balcony</h3>
+                </div>
+              </div>
+            </div>
+            <Button
+              variant="outline"
+              className="mt-8 border-black text-lg"
+              size="lg"
+            >
+              Show all amenities
+            </Button>
+          </div>
+
+          <div className="border-t border-gray-200 py-6">
+            <HomeCalendar />
+          </div>
         </div>
 
         <div className="lg:w-1/3 pb-24">
-          <div className="sticky top-4">
+          <div className="sticky top-10">
             <CheckOutCard />
           </div>
         </div>
+
         <div className="fixed z-30 bottom-0 w-full min-h-[10vh] shadow-xl bg-white lg:hidden block py-5 border-t">
           <div className="flex items-center gap-5">
             <p>Add dates for prices</p>
