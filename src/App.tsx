@@ -19,6 +19,8 @@ import { BiSolidDryer } from "react-icons/bi";
 import HomeCalendar from "./components/HomeCalendar";
 import ReviewSection from "./components/RatingSection";
 import MapLocation from "./components/MapLocation";
+import MeetYourHost from "./components/ui/MeetYourHost";
+import NeighbourhoodHighlights from "./components/NeighbourhoodHighlights";
 
 const AirbnbListingPage = () => {
   return (
@@ -223,14 +225,10 @@ const AirbnbListingPage = () => {
       <div className="py-8 border-t border-gray-200">
         <MapLocation />
       </div>
-      <div className="py-8 container pb-20 border-t border-gray-200">
-        <h2 className="text-2xl font-semibold">Neighbourhood highlights</h2>
-        <p className="my-3">
-          The neighborhood consists mainly of long term Home owners. i have the
-          only vacation rentals in the neighborhood. Please respect my
-          neighbors.
-        </p>
-        <button className="text-lg underline font-semibold flex items-center gap-1">Show more <ChevronRight /></button>
+      <NeighbourhoodHighlights />
+
+      <div className="py-8 container border-t border-gray-200">
+        <MeetYourHost />
       </div>
     </div>
   );
