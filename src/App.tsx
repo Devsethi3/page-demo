@@ -1,9 +1,5 @@
-import { useState } from "react";
 import { Heart, Share, Star } from "lucide-react";
 import { Button } from "./components/ui/button";
-import { Card, CardContent } from "./components/ui/card";
-import SelectGuests from "./components/SelectGuests";
-import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { PiDoorOpen } from "react-icons/pi";
 import { SlBadge } from "react-icons/sl";
@@ -11,11 +7,11 @@ import AboutThisPlace from "./components/AboutThisPlace";
 import MobileHero from "./components/MobileHero";
 import DesktopHero from "./components/DesktopHero";
 import { FaLocationDot } from "react-icons/fa6";
+import CheckOutCard from "./components/CheckOutCard";
+import CalendarPopover from "./components/CalendarPopover";
+import RoomSlider from "./components/RoomSlider";
 
 const AirbnbListingPage = () => {
-  const [checkInDate, setCheckInDate] = useState<Date | null>(null);
-  const [checkOutDate, setCheckOutDate] = useState<Date | null>(null);
-
   return (
     <div className="mx-auto py-8">
       <div className="flex container flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
@@ -58,7 +54,7 @@ const AirbnbListingPage = () => {
 
           <div className="flex items-center border-t border-gray-200 pt-6 space-x-4 mb-8">
             <img
-              src="https://images.pexels.com/photos/23483901/pexels-photo-23483901/free-photo-of-portrait-of-a-beautiful-brunette-standing-in-a-meadow.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              src="https://a0.muscache.com/im/users/6377993/profile_pic/1368505671/original.jpg?im_w=240"
               alt="Host"
               className="w-12 h-12 rounded-full"
             />
@@ -130,51 +126,20 @@ const AirbnbListingPage = () => {
 
             <AboutThisPlace />
           </div>
+          <div className="border-t border-gray-200 py-6">
+            <RoomSlider />
+          </div>
         </div>
 
         <div className="lg:w-1/3 pb-24">
           <div className="sticky top-4">
-            <Card className="w-full">
-              <CardContent className="p-6">
-                <div className="flex justify-between items-center mb-4">
-                  <span className="text-xl font-semibold">
-                    Add dates for prices
-                  </span>
-                </div>
-                <div className="grid grid-cols-2 gap-2 mb-4">
-                  <div className="col-span-1">
-                    <DatePicker
-                      selected={checkInDate}
-                      onChange={(date) => setCheckInDate(date)}
-                      selectsStart
-                      startDate={checkInDate || undefined}
-                      endDate={checkOutDate || undefined}
-                      placeholderText="Check-in"
-                      className="w-full h-full p-2 border rounded"
-                    />
-                  </div>
-                  <div className="col-span-1">
-                    <DatePicker
-                      selected={checkOutDate}
-                      onChange={(date) => setCheckOutDate(date)}
-                      selectsEnd
-                      startDate={checkInDate || undefined}
-                      endDate={checkOutDate || undefined}
-                      placeholderText="Checkout"
-                      className="w-full h-full p-2 border rounded"
-                    />
-                  </div>
-                </div>
-                <SelectGuests />
-                <Button className="w-full">Check availability</Button>
-              </CardContent>
-            </Card>
+            <CheckOutCard />
           </div>
         </div>
-        <div className="fixed z-30 bottom-0 w-full min-h-[10vh] bg-white lg:hidden block py-5 border-t">
+        <div className="fixed z-30 bottom-0 w-full min-h-[10vh] shadow-xl bg-white lg:hidden block py-5 border-t">
           <div className="flex items-center gap-5">
             <p>Add dates for prices</p>
-            <Button className="whitespace-nowrap">Check availability</Button>
+            <CalendarPopover />
           </div>
         </div>
       </div>
