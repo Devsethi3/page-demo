@@ -14,7 +14,7 @@ const HomeCalendar = () => {
     to: addMonths(new Date(), 1),
   });
 
-  // Handle date 
+  // Handle 
   const handleSelect = (range: DateRange | undefined) => {
     if (range) {
       setDate(range);
