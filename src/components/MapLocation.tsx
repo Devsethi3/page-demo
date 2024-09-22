@@ -4,7 +4,7 @@ const MapLocation = () => {
       <h2 className="text-2xl font-semibold">Where you'll be</h2>
       <p className="mt-2">Newport, Oregon, United States</p>
 
-      {/* Responsive Google Map */}
+      {/* Google Map */}
       <div className="relative pt-[56.25%] mt-4">
         {" "}
         {/* 16:9 aspect ratio */}
