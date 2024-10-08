@@ -14,7 +14,7 @@ import { cn } from "../lib/utils";
 import { Calendar } from "./ui/calendar";
 import CalendarPopover from "./CalendarPopover";
 
-// Define the type for the date
+// Define the type for the
 interface DateRange {
   from: Date | undefined;
   to: Date | undefined;
