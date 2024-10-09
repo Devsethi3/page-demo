@@ -26,7 +26,7 @@ const CheckOutCard = () => {
   });
   const [isCalendarOpen, setIsCalendarOpen] = useState(false);
 
-  // Handle date selection
+  // Handle date 
   const handleSelect = (range: DateRange | undefined) => {
     if (range) {
       setDate(range);
