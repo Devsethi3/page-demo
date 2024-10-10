@@ -58,7 +58,7 @@ const RoomSlider = () => {
           1024: { slidesPerView: 2.5 },
         }}
         onSlideChange={(swiper) => setCurrentSlide(swiper.realIndex + 1)}
-        modules={[Navigation, Pagination]} // Include Pagination module
+        modules={[Navigation, Pagination]} // Include Pagination
         // pagination={{ clickable: true }} // Enable pagination
         className="mySwiper"
       >
