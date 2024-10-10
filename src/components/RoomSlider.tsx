@@ -10,7 +10,7 @@ type Swiper = /*unresolved*/ any;
 
 const RoomSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(1);
-  const swiperRef = useRef<Swiper | null>(null); // Explicitly typing the 
+  const swiperRef = useRef<Swiper | null>(null); // Explicitly typing
 
   const images = [
     "https://a0.muscache.com/im/pictures/e775cff4-3517-4e9d-9024-809ae8dd2db7.jpg?im_w=1200",
