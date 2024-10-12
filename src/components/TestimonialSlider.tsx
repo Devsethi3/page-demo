@@ -12,7 +12,7 @@ interface Review {
   date: string;
   type: string;
   content: string;
-  src: string; // Added src for author's profile
+  src: string; // Added src for author's
 }
 
 const TestimonialSlider = () => {
