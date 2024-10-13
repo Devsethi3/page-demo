@@ -17,7 +17,7 @@ interface Review {
 
 const TestimonialSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(1);
-  const swiperRef = useRef<any>(null); // Explicitly typing the
+  const swiperRef = useRef<any>(null); // Explicitly typing
 
   const reviews: Review[] = [
     {
