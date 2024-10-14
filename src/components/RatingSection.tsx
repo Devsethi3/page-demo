@@ -27,7 +27,7 @@ interface Review {
   date: string;
   type: string;
   content: string;
-  src: string; // Added src for author's profile picture
+  src: string; // Added src for author's profile 
 }
 
 interface ReviewSectionProps {
