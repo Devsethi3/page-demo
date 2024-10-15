@@ -30,7 +30,7 @@ const MeetYourHost = () => {
               </div>
               <div className="flex flex-col gap-4">
                 <div className="flex items-start flex-col gap-2 border-b border-gray-400 pb-4">
-                  <h3 className="text-2xl font-extrabold">599</h3>
+                  <h3 className="text-2xl font-extrabold">500</h3>
                   <p className="text-sm font-extrabold -mt-2">Reviews</p>
                 </div>
                 <div className="flex items-start flex-col gap-2 border-b border-gray-400 pb-4">
