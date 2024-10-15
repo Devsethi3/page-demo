@@ -39,7 +39,7 @@ const MeetYourHost = () => {
                 </div>
                 <div className="flex items-start flex-col gap-2 pb-4">
                   <h3 className="text-2xl font-extrabold">7</h3>
-                  <p className="text-sm font-extrabold -mt-2">Years Hosting</p>
+                  <p className="text-sm font-extrabold -mt-2">Months Hosting</p>
                 </div>
               </div>
             </div>
