@@ -22,7 +22,7 @@ const MeetYourHost = () => {
                   alt="host"
                   className="w-32 h-32 rounded-full object-cover"
                 />
-                <h2 className="text-3xl font-bold">Richard</h2>
+                <h2 className="text-3xl font-bold">Albert</h2>
                 <div className="flex items-center gap-1">
                   <BiGhost />
                   <p className="font-semibold">Superhost</p>
