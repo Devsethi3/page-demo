@@ -73,7 +73,7 @@ const MeetYourHost = () => {
           </p>
           <h2 className="text-xl mt-5 font-semibold">Host Details</h2>
           <p className="mt-3">
-            Response rate: 100% <br /> Responds within an hour
+            Response rate: 100% <br /> Responds within an hour late
           </p>
           <Button className="my-8 text-lg" size="lg" variant="secondary">
             Message Host
