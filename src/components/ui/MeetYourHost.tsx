@@ -31,7 +31,7 @@ const MeetYourHost = () => {
               <div className="flex flex-col gap-4">
                 <div className="flex items-start flex-col gap-2 border-b border-gray-400 pb-4">
                   <h3 className="text-2xl font-extrabold">500</h3>
-                  <p className="text-sm font-extrabold -mt-2">Reviews</p>
+                  <p className="text-sm font-extrabold -mt-2">Validity</p>
                 </div>
                 <div className="flex items-start flex-col gap-2 border-b border-gray-400 pb-4">
                   <h3 className="text-2xl font-extrabold">4.8</h3>
