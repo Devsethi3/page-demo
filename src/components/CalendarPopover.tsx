@@ -36,7 +36,7 @@ const CalendarPopover = () => {
             <div className="flex flex-col mb-2 sm:mb-0">
               <h3 className="text-xl font-semibold">Select dates</h3>
               <p className="text-sm text-gray-500">
-                Add your
+                Add your travel price 
               </p>
             </div>
             <div className="flex lg:block hidden space-x-2">
