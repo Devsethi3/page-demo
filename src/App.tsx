@@ -52,7 +52,7 @@ const AirbnbListingPage = () => {
       <div className="flex container flex-col min-h-[200vh] lg:flex-row justify-between gap-8">
         <div className="lg:w-2/3">
           <h2 className="text-xl md:text-2xl font-semibold mb-2">
-            Entire home in Newport, Oregon, United States{" "}
+            Entire home in Newport, Oregon, USA{" "}
           </h2>
           <p className="text-muted-foreground">
             10 guests · 4 bedrooms · 5 beds · 8 bathrooms
