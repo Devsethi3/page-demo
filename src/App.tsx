@@ -72,7 +72,7 @@ const AirbnbListingPage = () => {
             <div>
               <h3 className="font-semibold">Hosted by AirBnb Superhost</h3>
               <p className="text-muted-foreground">
-                Superhost · 5 years hosting
+                Superhost · 2 years hosting
               </p>
             </div>
           </div>
