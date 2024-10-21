@@ -82,7 +82,7 @@ const AirbnbListingPage = () => {
             <p className="opacity-75">
               Experience the beauty of the Washington coast in this charming
               A-frame cottage. Enjoy stunning ocean views, a private hot tub,
-              and easy beach access. Perfect for a romantic getaway or small
+              and easy beach access. Perfect for a romantic getaway or big
               family vacation.
             </p>
           </div>
