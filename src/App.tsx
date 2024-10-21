@@ -55,7 +55,7 @@ const AirbnbListingPage = () => {
             Entire home in Newport, Oregon, United States{" "}
           </h2>
           <p className="text-muted-foreground">
-            10 guests · 4 bedrooms · 5 beds · 2 bathrooms
+            10 guests · 4 bedrooms · 5 beds · 8 bathrooms
           </p>
           <div className="flex items-center font-bold mt-1 mb-6">
             <Star className="w-5 h-5 d mr-1" />
