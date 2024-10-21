@@ -60,7 +60,7 @@ const AirbnbListingPage = () => {
           <div className="flex items-center font-bold mt-1 mb-6">
             <Star className="w-5 h-5 d mr-1" />
             <span className="font-semibold">4.89 · </span>
-            <span className="ml-1 underline">299 reviews</span>
+            <span className="ml-1 underline">699 reviews</span>
           </div>
 
           <div className="flex items-center border-t border-gray-200 pt-6 space-x-4 mb-8">
