@@ -132,7 +132,7 @@ const AirbnbListingPage = () => {
               stone throw away from the local sandy beach. The hypnotic sounds
               of the ocean waves crashing, the salty beach air, a curious sea
               otter poking his head out of the water, this and more all observed
-              from this beautiful four bedroom two bath home.
+              from this beautiful four bedroom two bath.
             </p>
 
             <AboutThisPlace />
