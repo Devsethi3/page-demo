@@ -34,7 +34,7 @@ const AboutThisPlace = () => {
                 stone throw away from the local sandy beach. The hypnotic sounds
                 of the ocean waves crashing, the salty beach air, a curious sea
                 otter poking his head out of the water, this and more all
-                observed from this beautiful four.
+                observed from this beautiful.
               </p>
               <p className="mt-4">
                 Three of the four bedrooms and the living quarters provide
