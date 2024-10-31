@@ -26,7 +26,7 @@ const AboutThisPlace = () => {
             </DialogHeader>
             <ScrollArea className="max-h-[500px]">
               This home is nestled in Newport and is just minutes away from the
-              Historical Nye Beach, bay front shopping and adored restaurants,
+              Historical Nye, bay front shopping and adored restaurants,
               all of this and more waiting for you to.
               <p className="font-semibold mt-4">The space</p>{" "}
               <p>
