@@ -41,7 +41,7 @@ const AboutThisPlace = () => {
                 beautiful views of the ocean. Snuggling by the fireplace and
                 gazing through the spacious windows that offer you an inspiring
                 panoramic view of the ocean and with some luck you may get a
-                glimpse of the majestic pod of Gray Whales that live in this
+                 of the majestic pod of Gray Whales that live in this
                 area.
               </p>
             </ScrollArea>
