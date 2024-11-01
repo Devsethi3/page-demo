@@ -38,7 +38,7 @@ const AboutThisPlace = () => {
               </p>
               <p className="mt-4">
                 Three of the four bedrooms and the living quarters provide
-                beautiful views of the ocean. Snuggling by the fireplace and
+                beautiful views of the. Snuggling by the fireplace and
                 gazing through the spacious windows that offer you an inspiring
                 panoramic view of the ocean and with some luck you may get a
                  of the majestic pod of Gray Whales that live in this
