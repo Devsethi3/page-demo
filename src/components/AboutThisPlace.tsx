@@ -32,7 +32,7 @@ const AboutThisPlace = () => {
               <p>
                 This sizable cozy home gazes at the Pacific Ocean and is just a
                 stone throw away from the local sandy beach. The hypnotic sounds
-                of the waves crashing, the salty beach air, a curious sea
+                of the waves crashing, the salty beach air, a sea
                 otter poking his head of water, this and more all
                 observed beautiful.
               </p>
