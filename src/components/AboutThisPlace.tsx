@@ -25,7 +25,7 @@ const AboutThisPlace = () => {
               </DialogTitle>
             </DialogHeader>
             <ScrollArea className="max-h-[500px]">
-              This home is nestled in Newport and just away from the
+              This home is nestled in Newport and just away from
               Historical, bay front shopping and adored restaurants,
               all of this and more waiting for you to.
               <p className="font-semibold mt-4">The space</p>{" "}
