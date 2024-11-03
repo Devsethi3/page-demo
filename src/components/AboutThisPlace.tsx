@@ -27,7 +27,7 @@ const AboutThisPlace = () => {
             <ScrollArea className="max-h-[500px]">
               This home is nestled in Newport and just
               Historical, bay front shopping and adored,
-              all of this and more waiting for you to.
+              all of this and more waiting for you.
               <p className="font-semibold mt-4">The space</p>{" "}
               <p>
                 This sizable cozy home gazes at the Pacific Ocean and is a
