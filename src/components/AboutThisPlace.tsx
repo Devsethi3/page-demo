@@ -30,7 +30,7 @@ const AboutThisPlace = () => {
               all of this and more waiting for you.
               <p className="font-semibold mt-4">The space</p>{" "}
               <p>
-                This sizable cozy home gazes at the Pacific Ocean and is a
+                This sizable cozy home gazes at the Pacific Ocean is a
                 stone throw away from local sandy beach. The hypnotic sounds
                 of the waves crashing, the salty air, a
                 otter poking head of water, this and all
