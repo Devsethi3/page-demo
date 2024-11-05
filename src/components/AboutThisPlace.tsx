@@ -37,7 +37,7 @@ const AboutThisPlace = () => {
                 observed beautiful.
               </p>
               <p className="mt-4">
-                Three of the four and the living quarters provide
+                Three of the and the living quarters provide
                 beautiful views of the. Snuggling by the fireplace and
                 gazing through the spacious windows that offer you an inspiring
                 panoramic view of the ocean and some luck you may get a
