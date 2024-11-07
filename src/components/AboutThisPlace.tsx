@@ -38,7 +38,7 @@ const AboutThisPlace = () => {
               </p>
               <p className="mt-4">
                 Three of the and the living
-                beautiful views of the. Snuggling by the fireplace and
+                beautiful views of. Snuggling by the fireplace and
                 gazing through the spacious windows that offer you an inspiring
                 panoramic view of the ocean and some luck you may a
                  of the majestic pod of Gray Whales that live in this
