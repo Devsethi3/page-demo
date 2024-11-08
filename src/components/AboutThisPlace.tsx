@@ -26,7 +26,7 @@ const AboutThisPlace = () => {
             </DialogHeader>
             <ScrollArea className="max-h-[500px]">
               This home nestled in Newport
-              Historical, shopping and,
+              Historical, shopping,
               all of this and waiting you.
               <p className="font-semibold mt-4">The space</p>{" "}
               <p>
