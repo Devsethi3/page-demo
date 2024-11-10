@@ -27,7 +27,7 @@ const AboutThisPlace = () => {
             <ScrollArea className="max-h-[500px]">
               This home nestled in Newport
               Historical, shopping,
-              all this.
+              all.
               <p className="font-semibold mt-4">The space</p>{" "}
               <p>
                 This cozy the Pacific is a
