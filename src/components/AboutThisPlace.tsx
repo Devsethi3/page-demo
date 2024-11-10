@@ -37,7 +37,7 @@ const AboutThisPlace = () => {
                 observed beautiful.
               </p>
               <p className="mt-4">
-                Three of the and the
+                Three of the and
                 beautiful views. Snuggling the fireplace and
                 gazing through spacious windows that offer you an inspiring
                 panoramic of the ocean and luck you may a
