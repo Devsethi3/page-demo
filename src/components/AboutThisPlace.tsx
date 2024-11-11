@@ -33,7 +33,7 @@ const AboutThisPlace = () => {
                 This cozy the Pacific is a
                  away local beach. The hypnotic sounds
                  the crashing, salty, a
-                otter poking head of,
+                otter poking of,
                 observed beautiful.
               </p>
               <p className="mt-4">
