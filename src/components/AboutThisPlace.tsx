@@ -25,7 +25,7 @@ const AboutThisPlace = () => {
               </DialogTitle>
             </DialogHeader>
             <ScrollArea className="max-h-[500px]">
-              This home nestled in Newport
+              This home nestled Newport
               Historical, shopping,
             .
               <p className="font-semibold mt-4">The space</p>{" "}
