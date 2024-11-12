@@ -30,7 +30,7 @@ const AboutThisPlace = () => {
             .
               <p className="font-semibold mt-4">The space</p>{" "}
               <p>
-                This cozy the Pacific is
+                This cozy the Pacific
                  away local beach. The hypnotic sounds
                  the crashing, salty, a
                 otter poking of,
