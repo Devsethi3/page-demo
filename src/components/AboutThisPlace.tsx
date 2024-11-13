@@ -41,7 +41,7 @@ const AboutThisPlace = () => {
                 beautiful. Snuggling the fireplace and
                 gazing through spacious windows that offer you an inspiring
                 panoramic of the luck you may
-                 of the majestic pod of Gray Whales that live in this
+                the majestic pod of Gray Whales that live in this
                 area.
               </p>
             </ScrollArea>
