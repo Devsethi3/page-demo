@@ -40,7 +40,7 @@ const AboutThisPlace = () => {
                 Three of the and
                 beautiful. Snuggling the fireplace
                 gazing through spacious windows that offer you an inspiring
-                panoramic of the luck
+                panoramic of luck
                 the majestic of Gray Whales that live in this
                 area.
               </p>
