@@ -38,7 +38,7 @@ const AboutThisPlace = () => {
               </p>
               <p className="mt-4">
                 Three of the and
-                beautiful. Snuggling the fireplace
+                beautiful. Snuggling the
                 gazing through spacious windows that offer you an inspiring
                 panoramic
                 the majestic of Whales this
