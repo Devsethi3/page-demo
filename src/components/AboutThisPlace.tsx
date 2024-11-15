@@ -41,7 +41,7 @@ const AboutThisPlace = () => {
                 beautiful. Snuggling the
                 gazing through spacious windows that offer you an inspiring
                 panoramic
-                the majestic of Whales this
+                the majestic of this
                 area.
               </p>
             </ScrollArea>
