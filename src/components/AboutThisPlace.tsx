@@ -31,7 +31,7 @@ const AboutThisPlace = () => {
               <p className="font-semibold mt-4">The space</p>{" "}
               <p>
                 This Pacific
-                 away local beach. The hypnotic sounds
+                 away local beach. The hypnotic
                  the crashing, a
                 otter poking,
                 observed beautiful.
