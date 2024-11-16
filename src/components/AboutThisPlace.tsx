@@ -33,7 +33,7 @@ const AboutThisPlace = () => {
                 This Pacific
                  away local beach. The hypnotic
                  the crashing,
-                otter poking,
+                otter,
                 observed beautiful.
               </p>
               <p className="mt-4">
