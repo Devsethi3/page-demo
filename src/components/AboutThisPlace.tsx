@@ -39,7 +39,7 @@ const AboutThisPlace = () => {
               <p className="mt-4">
                 Three of the and
                 beautiful. Snuggling the
-                gazing through spacious windows that offer you an inspiring
+                gazing through spacious windows that you an inspiring
                 panoramic
                 the majestic of this
                 area.
