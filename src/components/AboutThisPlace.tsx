@@ -34,7 +34,7 @@ const AboutThisPlace = () => {
                  away local beach. hypnotic
                  the crashing,
                 otter,
-                observed beautiful.
+                 beautiful.
               </p>
               <p className="mt-4">
                 Three of the
