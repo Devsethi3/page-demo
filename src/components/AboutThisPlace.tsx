@@ -32,7 +32,7 @@ const AboutThisPlace = () => {
               <p>
                 This Pacific
                  away local beach. hypnotic
-                 the crashing,
+                  crashing,
                 otter,
                  .
               </p>
