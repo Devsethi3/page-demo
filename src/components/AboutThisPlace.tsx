@@ -33,8 +33,6 @@ const AboutThisPlace = () => {
                 This Pacific
                  away local beach.
                   crashing,
-                ,
-                 .
               </p>
               <p className="mt-4">
                 Three of the
