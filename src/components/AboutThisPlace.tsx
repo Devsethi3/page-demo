@@ -41,7 +41,7 @@ const AboutThisPlace = () => {
                 beautiful. Snuggling the
                 gazing through spacious windows that you an inspiring
                 panoramic
-                the majestic of this
+                the majestic of
                 area.
               </p>
             </ScrollArea>
