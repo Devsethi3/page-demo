@@ -37,7 +37,7 @@ const AboutThisPlace = () => {
               <p className="mt-4">
                 Three of the
                 beautiful. Snuggling the
-                gazing through spacious that you an inspiring
+                gazing through spacious that an inspiring
                 panoramic
                 the majestic of
                 area.
