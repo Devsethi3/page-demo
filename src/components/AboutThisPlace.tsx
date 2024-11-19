@@ -37,7 +37,7 @@ const AboutThisPlace = () => {
               <p className="mt-4">
                 Three of the
                 beautiful.
-                gazing through that an inspiring
+                gazing through that an
                 panoramic
                 the majestic of
                 area.
