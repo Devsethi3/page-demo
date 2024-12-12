@@ -19,7 +19,6 @@ const HeroSection = () => {
         <div className="min-h-screen w-full bg-gradient-to-br from-amber-100 via-white to-blue-200">
             <div className="container py-24">
                 <div className="grid gap-12 items-center lg:grid-cols-2 lg:gap-24">
-                    {/* */}
                     <div className="flex flex-col justify-center">
                         <Badge variant="secondary" className="w-fit bg-zinc-900 text-white hover:bg-zinc-900">
                             UPDATE
