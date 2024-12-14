@@ -49,7 +49,7 @@ const Testimonials = () => {
                 </div>
             </div>
             <div className="container pt-20">
-                <h2 className="text-5xl font-semibold text-center">What Our Clients Says</h2>
+                <h2 className="lg:text-5xl md:text-4xl text-2xl font-semibold text-center">What Our Clients Says</h2>
                 <TestimonialGrid />
             </div>
         </section>

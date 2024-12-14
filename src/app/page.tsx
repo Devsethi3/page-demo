@@ -1,4 +1,5 @@
 import ComingSoonFeatures from '@/components/ComingSoonFeatures'
+import FAQs from '@/components/FAQs'
 import FeatureSection from '@/components/FeatureSection'
 import FeatureShowcase from '@/components/FeatureShowcase'
 import HeroSection from '@/components/HeroSection'
@@ -13,6 +14,7 @@ const HomePage = () => {
       <FeatureShowcase />
       <ComingSoonFeatures />
       <Testimonials />
+      <FAQs />
     </div>
   )
 }

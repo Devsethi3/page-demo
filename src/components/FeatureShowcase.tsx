@@ -11,9 +11,9 @@ const FeatureShowcase = () => {
                         FEATURES
                     </Badge>
 
-                    <h1 className="mt-6 text-5xl md:text-6xl mb-6 lg:max-w-5xl text-center leading-tight tracking-tight text-zinc-900">
+                    <h2 className="mt-6 text-3xl md:text-4xl lg:text-6xl mb-6 lg:max-w-5xl text-center leading-tight tracking-tight text-zinc-900">
                         Unlock Your Full Potential with our cutting-edge features
-                    </h1>
+                    </h2>
                     <p className="mb-12 text-center text-lg text-gray-600 md:text-xl lg:max-w-4xl">
                         From intuitive task management to advanced data analytics, our software equips
                         you with the tools you need to thrive in today&apos;s competitive business landscape.
