@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { Bell } from 'lucide-react'
 import Image from "next/image"
 import Link from "next/link"
 
@@ -132,3 +131,4 @@ const HeroSection = () => {
 
 
 export default HeroSection;
+
