@@ -56,7 +56,7 @@ const Navbar = () => {
             >
               <SiAerlingus className="text-amber-400 text-2xl" />
               <span className="font-bold text-xl text-gray-800 dark:text-white">
-                Refract
+                Mentory
               </span>
             </motion.div>
           </div>

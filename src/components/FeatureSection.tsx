@@ -1,4 +1,3 @@
-import { FileText, RefreshCcw, MessageCircle } from 'lucide-react'
 import Image from 'next/image';
 
 const FeatureSection = () => {

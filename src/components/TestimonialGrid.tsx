@@ -102,7 +102,7 @@ const TestimonialGrid = () => {
 
             {/* Review Text */}
             <p className="text-gray-600 dark:text-gray-300 italic mb-4">
-              "{testimonial.review}"
+              &quot;c{testimonial.review}&quot;
             </p>
           </div>
         ))}

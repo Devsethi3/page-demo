@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Badge } from "./ui/badge";
 
 const FAQs = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const faqs = [
     {
@@ -29,7 +29,7 @@ const FAQs = () => {
     },
   ];
 
-  const toggleFAQ = (index: any) => {
+  const toggleFAQ = (index: number | null) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
@@ -44,7 +44,8 @@ const FAQs = () => {
         </Badge>
 
         <h2 className="mt-6 text-3xl md:text-4xl lg:text-6xl mb-10 lg:max-w-5xl text-center leading-tight tracking-tight text-zinc-900">
-          <span className="text-muted-foreground">Get the Answers</span> <br /> to Common Questions
+          <span className="text-muted-foreground">Get the Answers</span> <br />{" "}
+          to Common Questions
         </h2>
       </div>
       <div className="space-y-4">
