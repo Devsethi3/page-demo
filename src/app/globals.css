@@ -5,6 +5,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*::selection{
+  background: #03cb8c;
+  color: #e9fff8;
+}
+
 body {
   font-family: "Space Grotesk", sans-serif;
 }

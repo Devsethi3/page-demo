@@ -1,5 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import TestimonialSlider from "./TestimonialSlider";
+import TestimonialGrid from "./TestimonialGrid";
 
 const Testimonials = () => {
     const stats = [
@@ -50,7 +50,7 @@ const Testimonials = () => {
             </div>
             <div className="container pt-20">
                 <h2 className="text-5xl font-semibold text-center">What Our Clients Says</h2>
-                <TestimonialSlider />
+                <TestimonialGrid />
             </div>
         </section>
     );
