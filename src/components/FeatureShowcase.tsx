@@ -108,7 +108,7 @@ const FeatureShowcase = () => {
                                         alt="features"
                                         width={400}
                                         height={400}
-                                        className="mx-auto -mt-8"
+                                        className="mx-auto -mt-8 rounded-xl"
                                     />
                                     <h3 className="text-2xl font-bold text-gray-900">
                                         100% integrated
