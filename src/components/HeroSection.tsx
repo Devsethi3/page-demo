@@ -63,7 +63,7 @@ const HeroSection = () => {
                         </div>
                     </div>
 
-                    {/* Right Column */}
+                    {/* Right */}
                     <div className="relative order-2 flex justify-center">
                         <div className="relative max-w-md w-full">
                             <Image 
