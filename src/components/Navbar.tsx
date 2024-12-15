@@ -60,7 +60,7 @@ const Navbar = () => {
             </motion.div>
           </div>
 
-          {/* Desktop Links */}
+          {/* Links */}
           <div className="hidden md:flex items-center space-x-6">
             {["Features", "Community", "Support"].map((item, index) => (
               <motion.a
