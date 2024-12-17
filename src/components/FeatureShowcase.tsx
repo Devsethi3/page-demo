@@ -5,7 +5,6 @@ const FeatureShowcase = () => {
     return (
         <div className="w-full bg-white">
             <div className="container mx-auto px-4 py-16">
-                {/*  */}
                 <div className="flex items-center justify-center flex-col">
                     <Badge variant="secondary" className="bg-zinc-900 font-thin py-1 text-white hover:bg-zinc-800">
                         FEATURES
