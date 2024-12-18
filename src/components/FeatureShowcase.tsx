@@ -137,7 +137,7 @@ export default FeatureShowcase;
                                 className="mx-auto"
                             />
                             <h3 className="mb-3 text-2xl font-bold text-gray-900">
-                                Smart widget for you
+                                Smart widget for
                             </h3>
                             <p className="text-gray-600">
                                 The  and flexible drag & drop editor saves time on development with great speed, great sapped
