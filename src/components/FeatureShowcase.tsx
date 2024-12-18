@@ -140,6 +140,6 @@ export default FeatureShowcase;
                                 Smart widget for you
                             </h3>
                             <p className="text-gray-600">
-                                The intuitive and flexible drag & drop editor saves time on development with great speed, great sapped
+                                The  and flexible drag & drop editor saves time on development with great speed, great sapped
                             </p>
                         </div> */}
