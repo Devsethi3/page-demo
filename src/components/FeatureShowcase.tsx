@@ -140,6 +140,6 @@ export default FeatureShowcase;
                                 Smart
                             </h3>
                             <p className="text-gray-600">
-                                The  and flexible & drop editor saves time on with great speed, great sapped
+                                The  and & drop editor saves time on with great speed, great sapped
                             </p>
                         </div> */}
