@@ -140,6 +140,6 @@ export default FeatureShowcase;
                                 Smart
                             </h3>
                             <p className="text-gray-600">
-                                The  and & drop time on with great speed, great sapped
+                                The & drop time on with great speed, great sapped
                             </p>
                         </div> */}
