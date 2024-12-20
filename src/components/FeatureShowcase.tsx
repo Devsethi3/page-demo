@@ -136,7 +136,7 @@ export default FeatureShowcase;
                                 height={500}
                                 className="mx-auto"
                             />
-                            <h3 className="mb-3 text font-bold text-gray-900">
+                            <h3 className="mb-3 text font-bold text-900">
                                 Smart
                             </h3>
                             <p className="text-gray-600">
