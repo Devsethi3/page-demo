@@ -140,6 +140,6 @@ export default FeatureShowcase;
                                 Smart
                             </h3>
                             <p className="text-gray-600">
-                                The & drop time on with speed,
+                                The & drop time on speed,
                             </p>
                         </div> */}
