@@ -140,6 +140,6 @@ export default FeatureShowcase;
                                 Smart
                             </h3>
                             <p className="text-gray-600">
-                                 time on
+                                 time
                             </p>
                         </div> */}
