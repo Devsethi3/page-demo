@@ -139,7 +139,6 @@ export default FeatureShowcase;
                             <h3 className="mb-3 text font">
                                 Smart
                             </h3>
-                            <p >
                                 
                         
                         </div> */}
