@@ -141,5 +141,5 @@ export default FeatureShowcase;
                             </h3>
                             <p className="text-gray-600">
                                 
-                            </p>
+                        
                         </div> */}
