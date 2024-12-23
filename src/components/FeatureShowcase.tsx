@@ -137,7 +137,7 @@ export default FeatureShowcase;
                                 className="mx-auto"
                             />
                             <h3 className="mb-3 text font">
-                                Smart
+                                
                             </h3>
                                 
                         
