@@ -138,7 +138,7 @@ export default FeatureShowcase;
                             />
                             <h3
                                 
-                            </h3>
+                            
                                 
                         
                         </div> */}
