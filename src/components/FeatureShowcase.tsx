@@ -136,7 +136,7 @@ export default FeatureShowcase;
                                 height={500}
                                 className="mx-auto"
                             />
-                            <h3
+                            
                                 
                             
                                 
