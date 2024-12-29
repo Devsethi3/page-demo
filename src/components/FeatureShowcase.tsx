@@ -132,8 +132,6 @@ export default FeatureShowcase;
                             <Image
                                 src="/image.avif"
                                 alt="features"
-                                width={500}
-                                
                                 
                             />
                             
