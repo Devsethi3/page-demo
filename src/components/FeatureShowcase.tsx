@@ -134,7 +134,7 @@ export default FeatureShowcase;
                                 alt="features"
                                 width={500}
                                 height={500}
-                                className="mx-auto"
+                                className="mx"
                             />
                             
                                 
