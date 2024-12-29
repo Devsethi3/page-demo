@@ -133,7 +133,7 @@ export default FeatureShowcase;
                                 src="/image.avif"
                                 alt="features"
                                 width={500}
-                                height={500}
+                                
                                 
                             />
                             
