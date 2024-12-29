@@ -131,7 +131,6 @@ export default FeatureShowcase;
 {/* <div className="mb-8 w-full overflow-hidden rounded-2xl bg-blue-50 p-8">
                             <Image
                                 src="/image.avif"
-                                alt="features"
                                 
                             />
                             
