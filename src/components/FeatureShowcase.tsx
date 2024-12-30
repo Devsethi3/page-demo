@@ -128,7 +128,7 @@ const FeatureShowcase = () => {
 
 export default FeatureShowcase;
 
-{/* <div className="mb-8 w-full overflow-hidden rounded-2xl bg-blue-50">
+{/* <div className="mb-8 w-full overflow-hidden rounded-2xl">
                             
                             
                                 
