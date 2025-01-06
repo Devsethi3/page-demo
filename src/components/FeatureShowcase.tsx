@@ -128,7 +128,7 @@ const FeatureShowcase = () => {
 
 export default FeatureShowcase;
 
-{/* <div className="mb-8 w-full">
+{/* <div className="mb-8">
                             
                             
                                 
