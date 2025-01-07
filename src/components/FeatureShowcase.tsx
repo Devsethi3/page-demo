@@ -19,7 +19,6 @@ const FeatureShowcase = () => {
                     </p>
                 </div>
 
-                {/* */}
                 <div className="grid gap-12 md:grid-cols-2">
                     {/* Left Feature */}
                     <div className="relative flex justify-center">
