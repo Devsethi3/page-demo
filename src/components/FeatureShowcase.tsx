@@ -20,7 +20,6 @@ const FeatureShowcase = () => {
                 </div>
 
                 <div className="grid gap-12 md:grid-cols-2">
-                    {/* */}
                     <div className="relative flex justify-center">
                         <div className="mb-8 w-full overflow-hidden rounded-2xl bg-amber-100 p-8">
                             <Image
