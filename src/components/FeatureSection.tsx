@@ -9,7 +9,7 @@ const FeatureSection = () => {
                         Good-bye to traditional startup hassle.
                     </h2>
                     <p className="mx-auto max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                        Say farewell to the complexities of the past and unlock a smoother path to success.
+                        Say farewell to the complexities of the past and unlock a smoother path to.
                     </p>
                 </div>
                 <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-3">
