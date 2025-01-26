@@ -40,7 +40,7 @@ const FeatureSection = () => {
                         <h3 className="mb-2 text-xl font-bold">Scale your startup with confidence</h3>
                         <p className="text-gray-500">
                             Our software is designed to grow alongside your business, adapting to your evolving needs. Scale
-                            your startup with.
+                            your startup.
                         </p>
                     </div>
                 </div>
