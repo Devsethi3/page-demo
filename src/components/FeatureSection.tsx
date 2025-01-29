@@ -29,7 +29,7 @@ const FeatureSection = () => {
                         <h3 className="mb-2 text-xl font-bold">Make informed business decision</h3>
                         <p className="text-gray-500">
                             Our software provides comprehensive analytics, empowering you to identify,
-                            performance.
+                            .
                         </p>
                     </div>
                     <div className="relative overflow-hidden rounded-xl shadow-lg bg-gradient-to-b from-yellow-50 to-gray-50 p-6">
