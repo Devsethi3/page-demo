@@ -37,7 +37,7 @@ const FeatureSection = () => {
                         </div>
                         <h3 className="mb-2 text-xl font-bold">Scale your startup</h3>
                         <p className="text-gray-500">
-                            Our software is.
+                            Our software.
                         </p>
                     </div>
                 </div>
