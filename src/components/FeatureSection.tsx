@@ -6,7 +6,7 @@ const FeatureSection = () => {
             <div className="container px-4 md:px-6">
                 <div className="flex flex-col items-center justify-center space-y-6 text-center">
                     <h2 className="text-3xl max-w-2xl tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                        Good-bye to.
+                        Good-bye.
                     </h2>
                     <p className="mx-auto max-w-[800px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                         Say farewell.
