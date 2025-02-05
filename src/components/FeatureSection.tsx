@@ -35,7 +35,7 @@ const FeatureSection = () => {
                         <div className="mb-4">
                             <Image src="/feature-icon3.png" alt='feature icon' width={45} height={45} />
                         </div>
-                        <h3 className="mb-2 text-xl font-bold">Scale your </h3>
+                        <h3 className="mb-2 text-xl font-bold">Scale</h3>
                         <p className="text-gray-500">
                             Our software.
                         </p>
