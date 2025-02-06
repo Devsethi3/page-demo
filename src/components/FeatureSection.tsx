@@ -19,7 +19,7 @@ const FeatureSection = () => {
                         </div>
                         <h3 className="mb-2 text-xl font-bold">Optimize your</h3>
                         <p className="text-gray-500">
-                            Our software is.
+                            Our software is extended.
                         </p>
                     </div>
                     <div className="relative overflow-hidden rounded-xl shadow-lg bg-gradient-to-b from-blue-50 to-gray-50 p-6">
